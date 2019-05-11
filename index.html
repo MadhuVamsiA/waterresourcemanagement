@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Water Resource Management ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <body id="page-top" class="index">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span><a href="#"><img border="0" width="170" alt='IIT GN' src="images/iit logo.gif"/></a></span>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="page-scroll">
+                                <a href="#">Water Resource Management</a>
+                            </li>
+
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="schedule.html">Schedule</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="labs/labs.html">Lectures</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-5-content').show();" href="#assignments">Assignments</a>
+                            </li>
+
+                            <li class="page-scroll">
+                                <a href="links.html">Links</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a onclick="javascript:$('#bs-example-navbar-collapse-2').toggle();">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+
+                    <!-- search box submenu -->
+                    <div class="collapse" id="bs-example-navbar-collapse-2">
+                        <gcse:search></gcse:search>
+                            </div>
+
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <section id="tree" style="margin-top:70px">
+                <div class="container">
+                    <a href="https://www.iitgn.ac.in/">IITGN</a> > <a href="https://www.iitgn.ac.in/course_details.htm">Courses</a> > WRM
+                </div>
+            </section>
+
+
+            <section id="home">
+                <div class="container lead">
+                    <h3>Water Resource Management</h3>
+                </div>
+
+                <div class="container lead">
+                    <p><b>Instructor:</b>
+                    Udit Bhatia <!--<a onclick="javascript:$('#instructor').toggle();"> &raquo;</a><br>-->
+                    <a onclick="$('#instructor').toggle();" class="btn btn-xs btn-success">&raquo;</a><br>
+                    <i style="display:none;" id="instructor">
+                        (<a href="https://www.iitgn.ac.in/faculty/civil/udit.htm">Website</a>, Email:
+                        <script language="JavaScript">
+                            <!--
+                            document.write("&nbsp;");
+                            spiderjam('bhatia.u','iitgn.ac.in');
+                            -->
+                            </script>
+                    </i>
+                    <!-- <img src ='images/udit.jpg' alt='udit bhatia' align ='right' style='width:20px;height:42px; border:0;'/> -->
+                    <img border="0" align ="right" alt='udit bhatia2' style='width:80px;height:100px;' src="images/udit.jpg"/>
+                        
+                    <b>Type:</b> Undergraduate (Course for Civil Engineering )<br>
+                    <b>Prerequisite:</b> Basic Civil <br>
+                    <b>When:</b> ................... </p>
+                </div>
+            </section>
+
+            <!-- Overview Section -->
+            <section id="overview">
+                <div class="container lead">
+                    <i class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-1-content').toggle();javascript:$('#tab-1-title').toggle();">Overview <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i>
+                    <div class="allshow" style="display:none;" id="tab-1-content">
+                        <hr class="star-primary">
+                        <h3 id="tab-1-title">Overview</h3>
+                        <p>In this course, students will learn about Water Resource Management (Sir,please add according to you)</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content Section -->
+            <section id="content">
+                <div class="container lead">
+                    <i class="noshow" style="display:none;" id="tab-2">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-2-content').toggle();javascript:$('#tab-2-title').toggle();">Content <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i>
+                    <div class="allshow" style="display:none;" id="tab-2-content">
+                        <hr class="star-primary">
+                        <h3 id="tab-2-title">Content</h3>
+                        <p>Main concepts of Water Resource managemts are...............<br>
+                        <a target="_blank" href="syllabus.pdf" class="btn btn-primary default">Syllabus (has to add) &raquo;</a></p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Schedule Section -->
+            <section id="schedule">
+                <div class="container lead">
+                    <i class="noshow" style="display:none;" id="tab-4">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="location.reload();location.href='schedule.html'">Schedule <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i>
+                    <div class="allshow" style="display:none;" id="tab-4-content">
+                        <hr class="star-primary">
+                        <h3>Schedule <a href="schedule.html" class="btn btn-xs btn-success">&raquo;</a></h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Lab Section -->
+            <section id="Lectures">
+                <div class="container lead">
+                    <i class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="location.reload();location.href='labs/labs.html'">Lectures <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i>
+                    <div class="allshow" style="display:none;" id="tab-5-content">
+                        <hr class="star-primary">
+                        <h3>Lectures <a href="labs/labs.html" class="btn btn-xs btn-success">&raquo;</a></h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Assignments Section -->
+            <section id="assignments">
+                <div class="container lead">
+                    <i class="noshow" style="display:none;" id="tab-6">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-6-content').toggle();javascript:$('#tab-6-title').toggle();">Assignments <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i>
+                    <div class="allshow" style="display:none;" id="tab-6-content">
+                        <hr class="star-primary">
+                        <h3 id="tab-6-title">Assignments</h3>
+                        <p><span class="label label-warning">AS1</span> | Water Resource Management 1 | Due: | <a target="_blank" href="assignments/as1.pdf">PDF</a></p>
+                        <p><span class="label label-default">AS2</span> |  Water Resource Management 2 | Due: | <a target="_blank" href="assignments/as2.pdf">PDF</a> | <a href="assignments/as2-supplementary.zip">ZIP</a></p>
+                        <p><span class="label label-info">AS3</span> |  Water Resource Management 3  | Due: | <a target="_blank" href="assignments/as3.pdf">PDF</a> </p>
+                        <p><span class="label label-danger">AS4</span> |  Water Resource Management 4  | Due: | <a target="_blank" href="assignments/as4.pdf">PDF</a> | <a href="assignments/as4-supplementary.zip">ZIP</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Books Section -->
+            <section id="books">
+                <div class="container lead">
+                    <i class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-8-content').toggle();">Bibliography <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i>
+                    <div class="allshow" style="display:none;" id="tab-8-content">
+                        <hr class="star-primary">
+
+                    </div>
+                </div>
+            </section>
+
+        </body>
+        <footer>
+            <small>
+                <center>
+                    © IIT Gandhinagar | Credits: Udit Bhatia
+                    <div style="display:none;" id="credit">
+                    </div>
+                </center>
+            </small>
+        </footer>
+        
+</html>
