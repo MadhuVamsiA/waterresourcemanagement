@@ -1,0 +1,63 @@
+/*
+	style.css
+	Copyright 2008-2018 Christopher Heng. All rights reserved.
+*/
+@-ms-viewport { width: device-width ; }
+@viewport { width: device-width ; }
+body {
+	background-color: #fbeeee;
+	color: black ;
+}
+p, ul, td {
+	font-family: Arial, Helvetica, sans-serif ;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 2em ;
+	text-align: center ;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif ;
+	text-align: center ;
+	font-size: 1.4em ;
+	background-color: #f0f0f0 ;
+	color: black ;
+}
+code {
+	font-family: "Courier New", Courier, monospace ;
+	font-size: 1em ;
+}
+a:link {
+	color: blue ;
+	background: transparent ;
+}
+a:visited {
+	color: purple ;
+	background: transparent ;
+}
+a:hover {
+	color: black ;
+	background: #ff0 ;
+}
+a:active {
+	color: red ;
+	background: transparent ;
+}
+div.mainbody {
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 1.1em ;
+	width: 100% ;
+	max-width: 1000px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding: 10px ;
+	background-color: #fbeeee ;
+	color: black ;
+	text-align: center ;
+	
+}
+
+div.exampletext {
+	border: 1px solid black ;
+	padding: 10px ;
+}
