@@ -5,7 +5,7 @@ This website is implemented in Bootstrap (a popular HTML, CSS, and JS framework 
 
 ## Example Site
 
-Available here: https://madhuvamsia.github.io/waterresourcemanagement.github.io/#
+Available here: https://madhuvamsia.github.io/waterresourcemanagement/#
 
 ## Components 
 
