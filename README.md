@@ -1,4 +1,4 @@
-# A Responsive HTML5/CSS3 Website for  an academic course.
+# Website for  an academic course.
 
 This website is implemented in Bootstrap (a popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web). The template has been tested on iOS, Windows Phone, Android, Chrome, Safari and other browsers. Some of its features require external free components (e.g., Google Custom Search for site-search).
 
